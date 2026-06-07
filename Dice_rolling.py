@@ -2,7 +2,7 @@ import random
 print("----Welcome to the dice rolling game----")
 
 print("Do you want to roll the dice?(y/n)")
-a = input("Choose: ")
+a = input("Choose: ").lower()
 
 if(a!='y' and a!='n'):
     print("Invalid Choice!")
