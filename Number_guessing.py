@@ -29,3 +29,5 @@ else:
                 
 
 
+# I want to improve this game when i put the another then 1 to 100 then what i get is error so it 
+# have to give the invalid choice
