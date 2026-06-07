@@ -10,10 +10,12 @@ if(a!='y' and a!='n'):
 else:
 
     if (a == 'y'):
+        count=0
         while (a == 'y'):
             print(f'{random.randint(1,6),random.randint(1,6)}')
             print("Do you want to play again!")
             a = input("")
+            count+=1
             
-
+    print(f"You rolled the dice {count} times")
     print("Thanks for Playing!")            
