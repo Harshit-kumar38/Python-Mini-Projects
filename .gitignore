@@ -1,0 +1,6 @@
+
+new/
+venv/
+.venv/
+
+.DS_Store
