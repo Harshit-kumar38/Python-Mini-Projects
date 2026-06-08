@@ -33,6 +33,24 @@ def create_character(character_name,strength,intelligence,charisma):
     f"CHA {full_dot * charisma}{empty_dot * (10 - charisma)}"
 )
 
+print('Store the information about your character')
+play = True
+while play:
+    print("Do you want to play(y/n)")
+    a = (input('Choose:'))
+    if a == 'y':
+        name = input("What is your character name:")
+        s = int(input('Strength: '))
+        i = int(input('Intelligence: '))
+        c = int(input("Charisma: "))
+        RPG = create_character(name,s,i,c)  
+        print(RPG)
+        play = True
 
-RPG = create_character('ren',4,2,1)  
-print(RPG)
+    elif a == 'n':
+        print("Ok We are waiting")  
+        play=False  
+
+
+print("Thanks for playing")
+
