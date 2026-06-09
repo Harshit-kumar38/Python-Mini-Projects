@@ -2,5 +2,6 @@
 new/
 venv/
 .venv/
+*.json
 
 .DS_Store
