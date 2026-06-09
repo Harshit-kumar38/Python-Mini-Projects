@@ -22,7 +22,10 @@ while curr:
         curr = True
     else:
         curr = False
-print("Thank You!")            
+print("Thank You!")
+
+
+# I have to improve the code 
     
 
 
