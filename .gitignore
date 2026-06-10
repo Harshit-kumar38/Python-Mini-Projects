@@ -3,5 +3,5 @@ new/
 venv/
 .venv/
 *.json
-
+file.txt
 .DS_Store
